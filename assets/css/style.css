@@ -3,7 +3,15 @@ Search keywords with descriotion
 
 network-r-icon - соц сети с инонкой справа
 adaptive - начало адаптива
+hero - 1 секция
 
+white-filled-btn - кнопка с белым фоном
+white-filled-btn-blue - кнопка с белым фоном
+contact-form - форма обратной связи
+custom-checkbox
+
+slider-nav-arrow - навигация главного слайдера
+slick-dots - доты главного слайдера
 */
 
 
@@ -14,6 +22,186 @@ body {
 a {
     text-decoration: none;
 }
+
+/*custom-checkbox start*/
+p, .new {
+    font-size: 16px;
+    font-family: 'Helvetica';
+}
+
+/* Hide the default checkboxes inside the 'new' div that jQuery adds for us */
+.new input[type="checkbox"] {
+    opacity: 0;
+}
+
+/* jQuery adds this span for us which we style to look like a box */
+.check-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: -20px;
+    position: relative;
+    top: 3px;
+}
+
+[type=checkbox]:checked + .check-box:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 15px;
+    margin-left: 6px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+/*custom-checkbox end*/
+
+/* slider-nav-arrow start */
+.slider-nav-arrow {
+    width: 71px;
+    height: 71px;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+}
+.slider-nav-arrow:hover {
+    transform: scale(1.01);
+}
+
+.next-arrow {
+    transform: rotate(180deg);
+}
+
+.next-arrow:hover {
+    transform: rotate(180deg) scale(1.01);
+}
+/* slider-nav-arrow end */
+
+/* contact-form start */
+.contact-form {
+    padding: 20px 22px;
+    display: grid;
+    gap: 20px;
+    max-width: 365px;
+    max-height: 346px;
+    left: 708px;
+    top: 42px;
+    background: #0095DA;
+}
+
+.contact-form__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+}
+
+.option {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.contact-form__input {
+    padding: 21px;
+    outline: none;
+    border: none
+}
+
+/* contact-form end */
+
+/* slick-dots start */
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.4rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+
+    border: none;
+    border-radius: 100%;
+    background-color: #000;
+
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #0095DA;
+}
+/* slick-dots end */
+
+/* white-filled-btn start */
+.white-filled-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+    padding: 15px 50px;
+    background: #fff;
+    outline: none;
+    border: none;
+    display: inline-block;
+
+    transition: all 0.3s ease;
+}
+
+.white-filled-btn:hover {
+    border: none;
+    background: #0095DA;
+    color: #fff;
+}
+/* white-filled-btn end */
+
+/* white-filled-btn-blue start */
+.white-filled-btn-blue {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #0095DA;
+    padding: 15px 50px;
+    background: #fff;
+    outline: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.white-filled-btn-blue:hover {
+    background: #0095DA;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* white-filled-btn-blue end */
 
 /* burger start */
 
@@ -305,6 +493,80 @@ a {
     margin-bottom: 8px;
 }
 
+/* hero start */
+
+.hero {
+    position: relative;
+}
+
+.prev-arrow,.next-arrow {
+    top: 40%;
+}
+.prev-arrow {
+    left: 20px;
+}
+.next-arrow {
+    right: 20px;
+}
+
+.hero-slider {
+    position: relative;
+}
+
+.hero-slide-item {
+    position: relative;
+}
+
+.hero-slide__offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-slide-item-content {
+    z-index: 2;
+    padding: 43px 0;
+    max-width: 968px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-height: 387px;
+}
+
+.hero__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 50px;
+    color: #000000;
+    max-width: 547px;
+}
+
+.hero__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    max-width: 419px;
+    margin-top: 15px;
+}
+
+.hero__action {
+    width: 230px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.hero-slide-offer__top {
+}
+
+
+
+/* hero end */
+
 
 /* adaptive start */
 @media (max-width: 1920px) {
@@ -367,6 +629,11 @@ a {
     .header-contacts__email {
         display: none;
     }
+    .hero__title {
+        font-size: 30px;
+        line-height: 100%;
+        font-weight: 500;
+    }
 }
 
 @media (max-width: 720px) {
@@ -374,6 +641,27 @@ a {
         font-size: 22px;
     }
     .header-contacts__tel {
+        display: none;
+    }
+    .hero-slide-item-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+    .hero__title {
+        text-align: center;
+    }
+    .hero__description {
+        margin: 15px auto;
+        text-align: center;
+    }
+    .hero__action {
+        margin: 15px auto;
+    }
+    .hero-slide-item-form {
+        margin-top: 20px;
+    }
+    .prev-arrow, .next-arrow {
         display: none;
     }
 }
