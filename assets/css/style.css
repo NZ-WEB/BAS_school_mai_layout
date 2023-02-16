@@ -7,6 +7,8 @@ hero - 1 секция
 
 white-filled-btn - кнопка с белым фоном
 white-filled-btn-blue - кнопка с белым фоном
+white-filled-btn-shadow - кнопка с синей тенью
+
 contact-form - форма обратной связи
 custom-checkbox
 
@@ -21,6 +23,20 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: calc(1200px - 40px);
+    margin: 0 auto;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 50px;
+    color: #000000;
+    padding: 45px 0;
 }
 
 /*custom-checkbox start*/
@@ -178,6 +194,28 @@ p, .new {
     color: #fff;
 }
 /* white-filled-btn end */
+
+/*white-filled-btn-shadow start*/
+.white-filled-btn-shadow {
+    font-size: 23px;
+    line-height: 28px;
+    color: #0095DA;
+    padding: 15px 50px;
+    background: #fff;
+    outline: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 149, 218, 0.6);
+
+    transition: all 0.3s ease;
+}
+.white-filled-btn-shadow:hover {
+    background: #0095DA;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/*white-filled-btn-shadow end*/
 
 /* white-filled-btn-blue start */
 .white-filled-btn-blue {
@@ -562,11 +600,56 @@ p, .new {
 
 .hero-slide-offer__top {
 }
-
-
-
 /* hero end */
 
+/* about start */
+.about-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.about-items__card {
+    width: 100%;
+    flex: 0 1 auto;
+}
+
+.about-items__card-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.actions-row {
+    display: flex;
+    justify-content: center;
+}
+
+.about-action-link {
+    margin: 30px 0 10px;
+}
+
+.about-items__card-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.about-items__hr {
+    display: block;
+    width: 1px;
+    background: #0095DA;
+    margin: 0 30px;
+    height: 205px;
+}
+/* about end */
 
 /* adaptive start */
 @media (max-width: 1920px) {
@@ -591,6 +674,10 @@ p, .new {
 }
 
 @media (max-width: 960px) {
+    .container {
+        padding: 0 20px;
+    }
+
     .burger-mobile-menu {
         display: block;
     }
