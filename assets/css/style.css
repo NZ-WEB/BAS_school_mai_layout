@@ -808,6 +808,41 @@ p, .new {
 }
 /* drones end */
 
+/* documents start */
+.documents-content {
+    display: flex;
+    justify-content: space-between;
+}
+.documents-content__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.documents-content__features-list {
+    list-style: circle;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.documents-content__features-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.documents-content__img {
+    width: 532px
+}
+
+
+/* documents end */
+
 /* adaptive start */
 @media (max-width: 1920px) {
     .header-content__title {
@@ -857,6 +892,16 @@ p, .new {
     }
     .hero-slide-item-form {
         margin-top: 20px;
+    }
+    .documents-content {
+        flex-direction: column;
+    }
+    .documents-content__right {
+        margin-top: 20px;
+    }
+    .documents-content__img {
+        max-width: 530px;
+        width: 100%;
     }
 }
 
