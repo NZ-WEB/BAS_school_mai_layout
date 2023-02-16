@@ -654,6 +654,10 @@ p, .new {
     margin-top: 10px;
 }
 
+.about-section-title {
+    padding-top: 20px;
+}
+
 .about-action-link {
     margin: 30px 0 10px;
 }
@@ -814,6 +818,27 @@ p, .new {
     }
 }
 
+@media (max-width: 1010px) {
+    .hero-slide-item-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+    .hero__title {
+        text-align: center;
+    }
+    .hero__description {
+        margin: 15px auto;
+        text-align: center;
+    }
+    .hero__action {
+        margin: 15px auto;
+    }
+    .hero-slide-item-form {
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 960px) {
 
     .burger-mobile-menu {
@@ -876,24 +901,6 @@ p, .new {
     }
     .header-contacts__tel {
         display: none;
-    }
-    .hero-slide-item-content {
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 20px;
-    }
-    .hero__title {
-        text-align: center;
-    }
-    .hero__description {
-        margin: 15px auto;
-        text-align: center;
-    }
-    .hero__action {
-        margin: 15px auto;
-    }
-    .hero-slide-item-form {
-        margin-top: 20px;
     }
     .prev-arrow, .next-arrow {
         display: none;
