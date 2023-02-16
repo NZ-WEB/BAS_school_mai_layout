@@ -82,7 +82,7 @@ p, .new {
     height: 71px;
     display: block;
     outline: none;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -112,14 +112,14 @@ p, .new {
     padding: 15px 50px;
     background: #0095DA;
     outline: none;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0);
     display: inline-block;
 
     transition: all 0.3s ease;
 }
 
 .blue-filled-btn:hover {
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0);
     background: #fff;
     color: #0095DA;
 }
@@ -252,7 +252,7 @@ p, .new {
     padding: 15px 50px;
     background: #fff;
     outline: none;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0);
     display: inline-block;
     cursor: pointer;
 
