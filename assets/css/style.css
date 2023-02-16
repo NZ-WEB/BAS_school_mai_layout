@@ -1,19 +1,20 @@
 /*
 Search keywords with descriotion
 
-network-r-icon - соц сети с инонкой справа
-adaptive - начало адаптива
-hero - 1 секция
+network-r-icon          - соц сети с инонкой справа
+adaptive                - начало адаптива
+hero                    - 1 секция
 
-white-filled-btn - кнопка с белым фоном
-white-filled-btn-blue - кнопка с белым фоном
+white-filled-btn        - кнопка с белым фоном
+white-filled-btn-blue   - кнопка с белым фоном
 white-filled-btn-shadow - кнопка с синей тенью
+blue-filled-btn         - кнопка синего цвета
 
-contact-form - форма обратной связи
+contact-form            - форма обратной связи
 custom-checkbox
 
-slider-nav-arrow - навигация главного слайдера
-slick-dots - доты главного слайдера
+slider-nav-arrow        - навигация главного слайдера
+slick-dots              - доты главного слайдера
 */
 
 
@@ -99,6 +100,30 @@ p, .new {
     transform: rotate(180deg) scale(1.01);
 }
 /* slider-nav-arrow end */
+
+/* blue-filled-btn start */
+.blue-filled-btn {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #fff;
+    padding: 15px 50px;
+    background: #0095DA;
+    outline: none;
+    border: none;
+    display: inline-block;
+
+    transition: all 0.3s ease;
+}
+
+.blue-filled-btn:hover {
+    border: none;
+    background: #fff;
+    color: #0095DA;
+}
+/* blue-filled-btn end */
 
 /* contact-form start */
 .contact-form {
@@ -213,7 +238,7 @@ p, .new {
 .white-filled-btn-shadow:hover {
     background: #0095DA;
     color: #fff;
-    border: 1px solid #fff;
+    border: none;
 }
 /*white-filled-btn-shadow end*/
 
@@ -626,6 +651,7 @@ p, .new {
 .actions-row {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .about-action-link {
@@ -651,6 +677,112 @@ p, .new {
 }
 /* about end */
 
+/* courses start */
+.courses-section-title {
+    padding-bottom: 0px;
+}
+
+.course-card {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.not-available {
+    font-size: 23px;
+    color: #0095DA;
+}
+
+.course-card__left {
+    max-width: 780px;
+}
+
+.course-card__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 116%;
+    color: #000000;
+}
+.course-card__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.course-card__features-item {
+    display: flex;
+    align-items: center;
+    min-width: 280px;
+    margin-bottom: 20px;
+}
+
+.course-card__features-icon {
+    max-width: 44px;
+    max-height: 44px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.course-card__right {
+    margin-left: 20px;
+}
+.course-card {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #0095DA;
+}
+
+/* courses end */
+
+/* teachers start */
+.teachers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.teachers-title {
+    text-align: center;
+}
+
+.teacher-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+.teacher-card__title {
+    margin: 10px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.teacher-card__avatar {
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+}
+.teacher-card__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+/* teachers end */
+
 /* adaptive start */
 @media (max-width: 1920px) {
     .header-content__title {
@@ -673,10 +805,16 @@ p, .new {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1280px) {
     .container {
         padding: 0 20px;
     }
+    .teachers-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 960px) {
 
     .burger-mobile-menu {
         display: block;
@@ -721,6 +859,15 @@ p, .new {
         line-height: 100%;
         font-weight: 500;
     }
+
+    .about-items {
+        flex-direction: column;
+    }
+    .about-items__hr {
+        width: 100%;
+        height: 1px;
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 720px) {
@@ -750,5 +897,24 @@ p, .new {
     }
     .prev-arrow, .next-arrow {
         display: none;
+    }
+    .course-card {
+        flex-direction: column;
+    }
+    .course-card__right {
+        margin: 20px 0;
+    }
+    .course-card__features-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .course-card__features-item {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .teachers-list {
+        grid-template-columns: 1fr;
     }
 }
