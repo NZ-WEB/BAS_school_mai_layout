@@ -787,6 +787,27 @@ p, .new {
 }
 /* teachers end */
 
+/* drones start */
+.drones__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.drones__img {
+    width: 100%;
+}
+.drones__item-title {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+/* drones end */
+
 /* adaptive start */
 @media (max-width: 1920px) {
     .header-content__title {
@@ -917,6 +938,9 @@ p, .new {
     }
     .course-card__features-item {
         margin-right: 10px;
+    }
+    .drones__list {
+        grid-template-columns: 1fr;
     }
 }
 
