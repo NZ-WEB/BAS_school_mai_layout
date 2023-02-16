@@ -11,7 +11,13 @@ $('.hero-slider').slick({
     nextArrow: $('.next-arrow'),
     accessibility: false,
     draggable: false,
-    dots: true
+    dots: true,
+    autoplay: true
+});
+
+//phone mask
+$('.contact-form__input').usPhoneFormat({
+    format:'+7 (xxx) xxx-xxxx',
 });
 
 // custom checkbox

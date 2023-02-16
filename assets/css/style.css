@@ -277,19 +277,19 @@ p, .new {
     text-align: center;
 }
 
+.mobile-menu-link {
+    padding: 0;
+}
+
 .mobile-menu li {
 
     padding-top: 3em;
     padding-bottom: 3em;
     text-decoration: none;
     list-style-type: none;
-
-
 }
 
 .mobile-menu li a {
-
-    padding-top: 3em;
     text-decoration: none;
     color: white;
 
@@ -595,6 +595,7 @@ p, .new {
     justify-content: space-between;
     position: relative;
     min-height: 387px;
+
 }
 
 .hero__title {
@@ -839,7 +840,109 @@ p, .new {
 .documents-content__img {
     width: 532px
 }
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contacts__item-img {
+    margin-right: 10px;
+    width: 34px;
+    height: 34px;
+}
+.contacts__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #0095DA;
+    text-align: center;
+}
 
+.contacts__title {
+    text-align: center;
+}
+.contacts__content {
+    margin-left: 100px;
+}
+
+.contacts {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.map {
+    width: 100vw;
+    height: 450px;
+    background: rgba(148, 148, 148, 0.51);
+}
+
+/* footer start */
+.footer {
+    background: #000;
+    padding: 30px 0;
+}
+
+.footer * {
+    color: #fff;
+}
+
+.footer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-courses__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0095DA;
+}
+
+.footer-courses__list {
+    list-style-type: circle;
+    margin-top: 20px;
+}
+
+.footer-courses__item {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.footer .contacts__content  {
+    margin-left: 0;
+}
+
+.footer-courses {
+    max-width: 473px;
+    width: 100%;
+}
+/* footer end */
 
 /* documents end */
 
@@ -872,6 +975,13 @@ p, .new {
     .teachers-list {
         grid-template-columns: 1fr 1fr;
     }
+    .contacts__content {
+        margin-left: 30px;
+    }
+    .next-arrow, .prev-arrow {
+        display: none!important;
+    }
+
 }
 
 @media (max-width: 1010px) {
@@ -902,6 +1012,9 @@ p, .new {
     .documents-content__img {
         max-width: 530px;
         width: 100%;
+    }
+    .hero-slide-item {
+        min-height: 660px;
     }
 }
 
@@ -959,6 +1072,34 @@ p, .new {
         height: 1px;
         margin: 20px 0;
     }
+    .contacts__content {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .contacts {
+        flex-direction: column;
+    }
+    .contacts__item {
+        justify-content: center;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-courses__title {
+        text-align: center;
+    }
+    .footer-courses__list {
+        text-align: center;
+        list-style: none;
+    }
+    .header-contacts__tel {
+        display: none;
+    }
+    .burger-mobile-menu {
+        margin-right: 0;
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 720px) {
@@ -986,6 +1127,24 @@ p, .new {
     }
     .drones__list {
         grid-template-columns: 1fr;
+    }
+    .contacts__link {
+        font-size: 18px;
+    }
+    .section-title {
+        font-size: 30px;
+        padding: 15px 0;
+        line-height: 110%;
+        margin-top: 15px;
+    }
+    .documents-content__title {
+        font-size: 18px;
+    }
+    .course-card__title {
+        font-size: 24px;
+    }
+    .course-card__description {
+        font-size: 18px;
     }
 }
 

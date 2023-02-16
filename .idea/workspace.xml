@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: add drones-section">
+    <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: add documents">
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery-input-mask-phone-number.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/evgenijfedoseev/development/layout/bas_school/assets/js/vendor",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,6 +54,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/vendor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img/teachers" />
       <recent name="$PROJECT_DIR$/assets/img/hero" />
@@ -90,7 +96,7 @@
       <updated>1676531911268</updated>
       <workItem from="1676531915972" duration="59000" />
       <workItem from="1676531979399" duration="53000" />
-      <workItem from="1676532045863" duration="23531000" />
+      <workItem from="1676532045863" duration="28282000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add hero">
       <created>1676556762747</created>
@@ -127,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676562281130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add documents">
+      <created>1676563296641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676563296641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +153,7 @@
     <MESSAGE value="feat: add teachers" />
     <MESSAGE value="feat: add fix about" />
     <MESSAGE value="feat: add drones-section" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add drones-section" />
+    <MESSAGE value="feat: add documents" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add documents" />
   </component>
 </project>
