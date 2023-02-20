@@ -60,6 +60,18 @@
 
 @font-face {
     font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Light'),
+    url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-Regular.woff2') format('woff2'),
+    url('Gilroy-Regular.woff') format('woff'),
+    url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
     src: url('Gilroy-Semibold.eot');
     src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
         url('Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),

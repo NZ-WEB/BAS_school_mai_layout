@@ -15,6 +15,8 @@ custom-checkbox
 
 slider-nav-arrow        - навигация главного слайдера
 slick-dots              - доты главного слайдера
+
+custom-input            - кастомный инпут
 */
 
 
@@ -30,6 +32,10 @@ a {
     max-width: calc(1200px - 40px);
     margin: 0 auto;
 }
+
+/*h3, h4, h2 {*/
+/*    font-weight: 400!important;*/
+/*}*/
 
 .section-title {
     font-style: normal;
@@ -75,6 +81,34 @@ p, .new {
     transform: rotate(45deg);
 }
 /*custom-checkbox end*/
+
+/* custom-input start */
+.place_holder {
+    z-index: 100;
+    left: 10px;
+    cursor: text;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    width: 100%;
+    display: none;
+    color: lightgrey;
+
+}
+
+.placeinput input:invalid + .place_holder {
+    display: inline;
+}
+
+/*вся проблема в том, если placeholder больше инпута*/
+.placeinput {
+    position: relative;
+    overflow: hidden;
+}
+.place_holder span {
+    color: red;
+}
+/* custom-input end */
 
 /* slider-nav-arrow start */
 .slider-nav-arrow {
@@ -221,9 +255,10 @@ p, .new {
 
 /*white-filled-btn-shadow start*/
 .white-filled-btn-shadow {
+    font-family: 'Calibri', sans-serif;
     font-size: 23px;
     line-height: 28px;
-    color: #0095DA;
+    color: #000;
     padding: 15px 50px;
     background: #fff;
     outline: none;
@@ -274,10 +309,12 @@ p, .new {
     z-index: 9999;
     display: none;
     text-align: center;
+    padding-top: 20px;
 }
 
 .mobile-menu-link {
     padding: 0;
+    font-family: 'Calibri', sans-serif;
 }
 
 .mobile-menu li {
@@ -414,22 +451,23 @@ p, .new {
 /* default horizontal nav end */
 
 .header {
-    padding: 19px 30px;
     background: #0095DA;
+    padding: 19px 0 12px;
+}
+
+.header-inner {
     color: #fff;
     display: flex;
     justify-content: space-between;
 }
 
 .nav__list-item a {
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 28px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .nav__list-item a:hover:before {
@@ -449,10 +487,8 @@ p, .new {
 }
 
 .header__logo-link {
-    max-width: 77px;
-    max-height: 77px;
-    width: 100%;
-    height: 100%;
+    width: 77px;
+    height: 77px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -473,6 +509,7 @@ p, .new {
 
 .header-content__title {
     margin-left: -2px;
+    white-space: nowrap;
 }
 
 .header-content__title {
@@ -521,6 +558,11 @@ p, .new {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-family: 'Calibri', sans-serif;
+}
+
+.header_contacts a {
+    font-family: 'Calibri', sans-serif;
 }
 
 .header-contacts__network {
@@ -644,7 +686,7 @@ p, .new {
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
-    text-align: left;
+    text-align: center;
     color: #000000;
 }
 
@@ -663,6 +705,7 @@ p, .new {
 }
 
 .about-items__card-description {
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -737,6 +780,21 @@ p, .new {
 .course-card {
     padding-bottom: 40px;
     border-bottom: 1px solid #0095DA;
+}
+.course-card_soon {
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+.course-card__soon-badge {
+    padding: 15px 0;
+    background: rgba(0, 149, 218, 0.7);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* courses end */
@@ -957,8 +1015,8 @@ p, .new {
     }
 
     .header-contacts__tel-wrapper {
-        flex-direction: row-reverse;
-        align-items: center;
+        flex-direction: column;
+        align-items: end;
     }
 
     .header-contacts__tel {

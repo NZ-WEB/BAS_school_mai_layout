@@ -14,6 +14,23 @@ $('.hero-slider').slick({
     autoplay: true
 });
 
+// form
+// $.validator.addClassRules({
+//     name: {
+//         required: true,
+//         minlength: 2
+//     },
+//     phone: {
+//         digits: true,
+//         phoneRu: true,
+//         required: true,
+//         minlength: 5,
+//         maxlength: 5
+//     }
+// });
+//
+// $('form').validate();
+
 //phone mask
 $('.contact-form__input').usPhoneFormat({
     format:'+7 (xxx) xxx-xxxx',
