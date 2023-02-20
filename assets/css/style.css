@@ -103,7 +103,6 @@ p, .new {
 
 /* blue-filled-btn start */
 .blue-filled-btn {
-
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -521,7 +520,7 @@ p, .new {
 .header-contacts {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-around;
 }
 
 .header-contacts__network {

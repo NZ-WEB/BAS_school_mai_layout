@@ -20,6 +20,9 @@ $('.contact-form__input').usPhoneFormat({
     format:'+7 (xxx) xxx-xxxx',
 });
 
+// anchor link
+
+
 // custom checkbox
 $(".option").wrap("<div class='new'></div>");
 $('input[type="checkbox"]').after('<span class="check-box"></span>');
