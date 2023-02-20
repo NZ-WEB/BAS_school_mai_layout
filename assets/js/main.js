@@ -2,7 +2,6 @@
 $(".burger-mobile-menu ").on("click",".bar",function(){
     $(".mobile-menu").slideToggle();
     $(".bar").toggleClass('change');
-    $(".mobile-menu li").slideRight();
 });
 
 // hero slider
@@ -21,7 +20,13 @@ $('.contact-form__input').usPhoneFormat({
 });
 
 // anchor link
-
+$(".scroll").on("click", function(e){
+    e.preventDefault();
+    var anchor = $(this).attr('href');
+    $('html, body').stop().animate({
+        scrollTop: $(anchor).offset().top - 60
+    }, 800);
+});
 
 // custom checkbox
 $(".option").wrap("<div class='new'></div>");
