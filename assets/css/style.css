@@ -752,6 +752,7 @@ p, .new {
     color: #000000;
 }
 .course-card__description {
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -765,6 +766,16 @@ p, .new {
     align-items: center;
     min-width: 280px;
     margin-bottom: 20px;
+}
+
+.course-card__features-text {
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+    white-space: nowrap;
 }
 
 .course-card__features-icon {
@@ -836,6 +847,7 @@ p, .new {
     border-radius: 50%;
 }
 .teacher-card__description {
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -856,10 +868,10 @@ p, .new {
     width: 100%;
 }
 .drones__item-title {
-    margin-top: 15px;
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 28px;
     text-align: center;
     color: #000000;
@@ -947,6 +959,16 @@ p, .new {
     padding: 30px 0;
 }
 
+.footer-courses__link {
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
 .footer * {
     color: #fff;
 }
@@ -996,7 +1018,7 @@ p, .new {
 }
 
 .footer-courses {
-    max-width: 473px;
+    max-width: 573px;
     width: 100%;
 }
 /* footer end */

@@ -5,117 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: jquery scroll">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/Calibri.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/calibri/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.validate.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Black.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BlackItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BlackItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BlackItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BlackItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BlackItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BlackItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BoldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BoldItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BoldItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-BoldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-BoldItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Extrabold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Extrabold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Extrabold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Extrabold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Extrabold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Extrabold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Extrabold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Extrabold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ExtraboldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ExtraboldItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ExtraboldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ExtraboldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ExtraboldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ExtraboldItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ExtraboldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ExtraboldItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Heavy.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Heavy.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Heavy.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Heavy.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Heavy.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Heavy.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Heavy.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Heavy.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-HeavyItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-HeavyItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-HeavyItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-HeavyItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-HeavyItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-HeavyItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-HeavyItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-HeavyItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-LightItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-LightItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-LightItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-LightItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-LightItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-LightItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-MediumItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-MediumItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-MediumItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-MediumItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-MediumItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-MediumItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-RegularItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-RegularItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-RegularItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-RegularItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-RegularItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-RegularItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-RegularItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-RegularItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Semibold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Semibold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Semibold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Semibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Semibold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Semibold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Semibold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-SemiboldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-SemiboldItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-SemiboldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-SemiboldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-SemiboldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-SemiboldItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-SemiboldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-SemiboldItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Thin.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Thin.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Thin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Thin.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-Thin.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-Thin.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ThinItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ThinItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ThinItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ThinItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-ThinItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-ThinItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLightItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLightItalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLightItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLightItalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Gilroy-UltraLightItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/Gilroy-UltraLightItalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/giloroy/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +98,7 @@
       <workItem from="1676532045863" duration="29220000" />
       <workItem from="1676709386326" duration="59000" />
       <workItem from="1676877147234" duration="1882000" />
-      <workItem from="1676886076124" duration="5024000" />
+      <workItem from="1676886076124" duration="6100000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add hero">
       <created>1676556762747</created>
