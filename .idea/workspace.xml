@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: jquery scroll">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1676532045863" duration="29220000" />
       <workItem from="1676709386326" duration="59000" />
       <workItem from="1676877147234" duration="1882000" />
-      <workItem from="1676886076124" duration="6100000" />
+      <workItem from="1676886076124" duration="6189000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add hero">
       <created>1676556762747</created>
