@@ -22,6 +22,11 @@ custom-input            - кастомный инпут
 
 body {
     font-family: 'Gilroy', sans-serif;
+    box-sizing: border-box;
+}
+
+div {
+    box-sizing: border-box;
 }
 
 a {
@@ -39,11 +44,11 @@ a {
 
 .section-title {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 43px;
     line-height: 50px;
     color: #000000;
-    padding: 45px 0;
+    padding: 100px 0 45px;
 }
 
 /*custom-checkbox start*/
@@ -147,6 +152,7 @@ p, .new {
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0);
     display: inline-block;
+    box-shadow: 0px 5px 10px rgba(15, 69, 100, 0.5);
 
     transition: all 0.3s ease;
 }
@@ -162,11 +168,14 @@ p, .new {
 .contact-form {
     padding: 20px 22px;
     display: grid;
-    gap: 20px;
-    max-width: 365px;
-    max-height: 346px;
+    gap: 15px;
+    width: 365px;
+    height: 346px;
+    min-width: 365px;
+    min-height: 346px;
     left: 708px;
     top: 42px;
+    box-sizing: border-box;
     background: #0095DA;
 }
 
@@ -177,6 +186,7 @@ p, .new {
     line-height: 100%;
     color: #FFFFFF;
     margin-bottom: -10px;
+    text-align: center;
 }
 
 .option {
@@ -202,7 +212,7 @@ p, .new {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 1rem 0;
+    padding: 30px 0;
 
     list-style-type: none;
 }
@@ -225,6 +235,10 @@ p, .new {
     cursor: pointer;
 }
 
+.hero-slide-item {
+    min-height: 430px;
+}
+
 .slick-dots li.slick-active button {
     background-color: #0095DA;
 }
@@ -237,13 +251,14 @@ p, .new {
     font-size: 23px;
     line-height: 28px;
     color: #000000;
-    padding: 15px 50px;
+    padding: 15px 40px;
     background: #fff;
     outline: none;
     border: none;
     display: inline-block;
 
     transition: all 0.3s ease;
+    max-width: 209px;
 }
 
 .white-filled-btn:hover {
@@ -515,7 +530,7 @@ p, .new {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .header-content__title {
@@ -601,7 +616,7 @@ p, .new {
 }
 
 .header-contacts__tel {
-    margin-right: 8px;
+    margin-right: 0px;
     margin-bottom: 8px;
 }
 
@@ -621,8 +636,18 @@ p, .new {
     position: relative;
 }
 
+.slider-nav-arrows {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    max-width: calc(1200px);
+    width: 100%;
+}
+
 .prev-arrow,.next-arrow {
-    top: 40%;
+    position: absolute;
+    top: 0;
 }
 .prev-arrow {
     left: 20px;
@@ -647,7 +672,7 @@ p, .new {
 
 .hero-slide-item-content {
     z-index: 2;
-    padding: 43px 0;
+    padding: 43px 0 0;
     max-width: 968px;
     margin: 0 auto;
     display: flex;
@@ -658,22 +683,23 @@ p, .new {
 }
 
 .hero__title {
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 43px;
     line-height: 50px;
     color: #000000;
-    max-width: 547px;
 }
 
 .hero__description {
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-    max-width: 419px;
-    margin-top: 15px;
+    max-width: 380px;
+    margin-top: 20px;
 }
 
 .hero__action {
@@ -701,7 +727,7 @@ p, .new {
 
 .about-items__card-title {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
@@ -725,7 +751,7 @@ p, .new {
 .about-items__card-description {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 21px;
     color: #000000;
@@ -735,7 +761,7 @@ p, .new {
 
 .about-items__hr {
     display: block;
-    width: 1px;
+    width: 3px;
     background: #0095DA;
     margin: 0 30px;
     height: 205px;
@@ -749,8 +775,9 @@ p, .new {
 
 .course-card {
     padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 685px 1fr;
+    gap: 70px;
 }
 
 .not-available {
@@ -759,7 +786,10 @@ p, .new {
 }
 
 .course-card__left {
-    max-width: 780px;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .course-card__title {
@@ -768,15 +798,16 @@ p, .new {
     font-size: 32px;
     line-height: 116%;
     color: #000000;
+    max-width: 640px;
 }
 .course-card__description {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     line-height: 28px;
     color: #000000;
-    margin-top: 30px;
+    margin-top: 12px;
 }
 
 .course-card__features-item {
@@ -789,7 +820,7 @@ p, .new {
 .course-card__features-text {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 23px;
     line-height: 28px;
     color: #000000;
@@ -797,14 +828,12 @@ p, .new {
 }
 
 .course-card__features-icon {
-    max-width: 44px;
-    max-height: 44px;
-    width: 100%;
+    width: 44px;
+    height: 44px;
     margin-right: 30px;
 }
 
 .course-card__right {
-    margin-left: 20px;
 }
 .course-card {
     padding-bottom: 40px;
@@ -814,11 +843,32 @@ p, .new {
     border-bottom: none;
     padding-bottom: 15px;
 }
+
+.course-card__icon-group {
+    display: flex;
+    align-items: center;
+}
+
+.course-card__left-icon {
+    width: 42px;
+    height: 33px;
+}
+
+.course-card__left-icon-text {
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+    margin-left: 10px;
+}
+
 .course-card__soon-badge {
     padding: 15px 0;
-    background: rgba(0, 149, 218, 0.7);
+    background: rgba(2, 165, 240, 0.83);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 26px;
     line-height: 30px;
     color: #FFFFFF;
@@ -837,7 +887,15 @@ p, .new {
 }
 
 .teachers-title {
+    padding-top: 115px;
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
     text-align: center;
+    color: #000000;
+    padding-bottom: 45px;
 }
 
 .teacher-card {
@@ -852,26 +910,29 @@ p, .new {
 .teacher-card__title {
     margin: 10px 0;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
     color: #000000;
+    max-width: 100px;
 }
 
 .teacher-card__avatar {
-    width: 173px;
-    height: 173px;
+    width: 263px;
+    height: 263px;
     border-radius: 50%;
+    border: 3px solid rgba(0, 149, 218, 0.2);
 }
 .teacher-card__description {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 21px;
     text-align: center;
     color: #000000;
+    max-width: 267px;
 }
 /* teachers end */
 
@@ -885,14 +946,20 @@ p, .new {
 .drones__img {
     width: 100%;
 }
+
+.drones-title {
+    padding-top: 100px;
+}
+
 .drones__item-title {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 23px;
     line-height: 28px;
     text-align: center;
     color: #000000;
+    margin-top: 15px;
 }
 /* drones end */
 
@@ -907,12 +974,13 @@ p, .new {
     font-size: 26px;
     line-height: 30px;
     color: #000000;
+    max-width: 500px;
+    margin-bottom: 65px;
 }
 
 .documents-content__features-list {
-    list-style: circle;
-    margin-top: 20px;
-    margin-left: 18px;
+    list-style: inside;
+    max-width: 520px;
 }
 
 .documents-content__features-item {
@@ -927,10 +995,20 @@ p, .new {
 .documents-content__img {
     width: 532px
 }
-.contacts {
+.contacts-inner {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contacts-section__title {
+    text-align: left;
+    font-weight: 300;
+}
+
+.contacts__title {
+    padding-top: 100px;
+    font-weight: 300;
 }
 .contacts__item {
     display: flex;
@@ -939,13 +1017,22 @@ p, .new {
 }
 .contacts__item-img {
     margin-right: 10px;
-    width: 34px;
-    height: 34px;
+    width: 41px;
+    height: 41px;
 }
 .contacts__link {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
+    line-height: 30px;
+    color: #0095DA;
+    text-align: center;
+}
+
+.contacts__link_footer {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
     line-height: 30px;
     color: #0095DA;
     text-align: center;
@@ -980,11 +1067,12 @@ p, .new {
 .footer-courses__link {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-weight: 300!important;
+    font-size: 12px!important;
+    line-height: 15px!important;
     text-decoration-line: underline;
     color: #FFFFFF;
+
 }
 
 .footer * {
@@ -1011,14 +1099,14 @@ p, .new {
 
 .footer-courses__title {
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 20px!important;
     line-height: 23px;
     color: #0095DA;
 }
 
 .footer-courses__list {
-    list-style-type: circle;
+    list-style: inside;
     margin-top: 20px;
 }
 
@@ -1077,6 +1165,13 @@ p, .new {
     }
     .next-arrow, .prev-arrow {
         display: none!important;
+    }
+    .course-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .course-card__description {
+        margin-top: 20px;
     }
 
 }
