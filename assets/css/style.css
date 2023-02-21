@@ -1158,7 +1158,7 @@ p, .new {
         padding: 0 20px;
     }
     .teachers-list {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .contacts__content {
         margin-left: 30px;
@@ -1173,7 +1173,30 @@ p, .new {
     .course-card__description {
         margin-top: 20px;
     }
-
+    .contacts-inner {
+        flex-direction: column;
+    }
+    .course-card__left {
+        width: 100%;
+    }
+    .section-title {
+        text-align: center;
+    }
+    .mobile-menu {
+        padding-top: 0;
+    }
+    .contact-form {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    .course-card__features-icon {
+        margin-right: 10px;
+    }
+    .course-card__features-text {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 1010px) {
@@ -1337,6 +1360,12 @@ p, .new {
     }
     .course-card__description {
         font-size: 18px;
+    }
+    .header-content__title {
+        font-size: 20px;
+        max-width: 200px;
+        white-space: normal;
+        line-height: 120%;
     }
 }
 
