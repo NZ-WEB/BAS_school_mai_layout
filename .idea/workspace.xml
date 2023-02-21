@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: jquery scroll">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: add readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/evgenijfedoseev/development/layout/bas_school/assets/js/vendor",
+    "last_opened_file_path": "/Users/evgenijfedoseev/development/layout/bas_school",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,7 +98,8 @@
       <workItem from="1676532045863" duration="29220000" />
       <workItem from="1676709386326" duration="59000" />
       <workItem from="1676877147234" duration="1882000" />
-      <workItem from="1676886076124" duration="6189000" />
+      <workItem from="1676886076124" duration="6281000" />
+      <workItem from="1676972528366" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add hero">
       <created>1676556762747</created>
@@ -168,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676878188666</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add readme">
+      <created>1676892291245</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676892291245</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +196,7 @@
     <MESSAGE value="fix: btn`s borders" />
     <MESSAGE value="fix: mozila layout" />
     <MESSAGE value="feat: jquery scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: jquery scroll" />
+    <MESSAGE value="feat: add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add readme" />
   </component>
 </project>
