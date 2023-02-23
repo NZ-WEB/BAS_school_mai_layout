@@ -7,6 +7,7 @@
     <link href="assets/fonts/giloroy/fonts.css" rel="stylesheet">
     <link href="assets/fonts/calibri/stylesheet.css" rel="stylesheet">
     <link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./assets/css/intlTelInput.min.css">
 
     <link href="assets/css/style.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -74,8 +75,8 @@
                         <img class="network-r-icon__icon" src="./assets/img/whatsup-icon.svg">
                     </a>
                 </div>
-                <a class="header-contacts__email" href="mailto:aero@mai.ru">email: aero@mai.ru</a>
-                <a class="header-contacts__address" href="#">Волоколамское шоссе, 4к24</a>
+                <a class="header-contacts__email" href="mailto:aero@mai.ru">e-mail: aero@mai.ru</a>
+                <a class="header-contacts__address" href="#">Адрес: Волоколамское шоссе, 4к24</a>
 
             </div>
         </div>
@@ -117,7 +118,7 @@
                             <span class="contact-form__terms-text">Даю согласие на обработку персональных данных *</span>
                         </label>
                     </div>
-                    <button class="white-filled-btn-blue" type="submit">
+                    <button class="white-filled-btn-blue contact-form__actions-button" type="submit">
                         Отправить
                     </button>
                 </form>
@@ -149,7 +150,7 @@
                             <span class="contact-form__terms-text">Даю согласие на обработку персональных данных *</span>
                         </label>
                     </div>
-                    <button class="white-filled-btn-blue" type="submit">
+                    <button class="white-filled-btn-blue contact-form__actions-button" type="submit">
                         Отправить
                     </button>
                 </form>
@@ -181,7 +182,7 @@
                             <span class="contact-form__terms-text">Даю согласие на обработку персональных данных *</span>
                         </label>
                     </div>
-                    <button class="white-filled-btn-blue" type="submit">
+                    <button class="white-filled-btn-blue contact-form__actions-button" type="submit">
                         Отправить
                     </button>
                 </form>
@@ -213,7 +214,7 @@
                             <span class="contact-form__terms-text">Даю согласие на обработку персональных данных *</span>
                         </label>
                     </div>
-                    <button class="white-filled-btn-blue" type="submit">
+                    <button class="white-filled-btn-blue contact-form__actions-button" type="submit">
                         Отправить
                     </button>
                 </form>
@@ -533,13 +534,13 @@
             <li class="drones__item">
                 <img class="drones__img" src="./assets/img/drones/1.png">
                 <h3 class="drones__item-title">
-                    Беспилотные летающие аппараты самолётного типа
+                    Беспилотные летательные аппараты самолётного типа
                 </h3>
             </li>
             <li class="drones__item">
                 <img class="drones__img" src="./assets/img/drones/2.png">
                 <h3 class="drones__item-title">
-                    Беспилотные летающие аппараты мультироторного типа (DJI mavic)
+                    Беспилотные летательные аппараты мультироторного типа (DJI mavic)
                 </h3>
             </li>
             <li class="drones__item">
@@ -600,14 +601,15 @@
                     Получить консультацию
                 </h3>
                 <input class="contact-form__input" placeholder="Иванов Иван *" type="text">
-                <input class="contact-form__input" id="phone" placeholder="+7 (999) 999-99-99 *" type="tel">
+
+                <input class="contact-form__input"  placeholder="" type="tel">
                 <div class="contact-form__terms">
                     <label class="option">
                         <input name="field_19" type="checkbox">
                         <span class="contact-form__terms-text">Даю согласие на обработку персональных данных *</span>
                     </label>
                 </div>
-                <button class="white-filled-btn-blue" type="submit">
+                <button class="white-filled-btn-blue contact-form__actions-button" type="submit">
                     Отправить
                 </button>
             </form>
@@ -711,6 +713,8 @@
 </script>
 <script src="./assets/js/vendor/slick.min.js" type="text/javascript"></script>
 <!--<script src="./assets/js/vendor/jquery.validate.min.js" type="text/javascript"></script>-->
+<script src="./assets/js/vendor/intlTelInput-jquery.min.js"></script>
+<script src="./assets/js/vendor/utils.js"></script>
 <script src="./assets/js/vendor/jquery-input-mask-phone-number.min.js" type="text/javascript"></script>
 <script src="./assets/js/main.js"></script>
 </body>

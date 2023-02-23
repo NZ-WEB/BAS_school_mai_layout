@@ -17,6 +17,7 @@ slider-nav-arrow        - навигация главного слайдера
 slick-dots              - доты главного слайдера
 
 custom-input            - кастомный инпут
+custom tel with flags   - кастомный телефон с флагами (переопределение пути до флагов)
 */
 
 
@@ -34,9 +35,20 @@ a {
 }
 
 .container {
-    max-width: calc(1200px - 40px);
+    max-width: calc(1200px - 60px);
     margin: 0 auto;
 }
+
+/* custom tel with flags start */
+
+.iti__flag {background-image: url("../img/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .iti__flag {background-image: url("../img/flags@2x.png");}
+}
+
+/* custom tel with flags end */
+
 
 /*h3, h4, h2 {*/
 /*    font-weight: 400!important;*/
@@ -181,11 +193,10 @@ p, .new {
 
 .contact-form__title {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 26px;
     line-height: 100%;
     color: #FFFFFF;
-    margin-bottom: -10px;
     text-align: center;
 }
 
@@ -198,10 +209,43 @@ p, .new {
     padding-bottom: 10px;
 }
 
+.contact-form__terms-text {
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.contact-form__actions-button {
+    max-width: 183px;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
 .contact-form__input {
     padding: 21px;
     outline: none;
-    border: none
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.iti--allow-dropdown .iti__flag-container {
+    left: 10px;
+}
+
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=tel] {
+    padding-left: 61px;
+}
+
+.contact-form__input[type=tel] {
+    padding-left: 20px;
 }
 
 /* contact-form end */
@@ -467,7 +511,7 @@ p, .new {
 
 .header {
     background: #0095DA;
-    padding: 19px 0 14px;
+    padding: 15px 0 14px;
 }
 
 .header-inner {
@@ -479,10 +523,11 @@ p, .new {
 .nav__list-item a {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 23px;
     line-height: 28px;
     color: #FFFFFF;
+    margin-top: -5px;
 }
 
 .nav__list-item a:hover:before {
@@ -490,7 +535,7 @@ p, .new {
 }
 
 .header-content {
-    margin-left: 15px;
+    margin-left: 18px;
 }
 
 .header-content__nav {
@@ -499,6 +544,7 @@ p, .new {
 
 .header-left {
     display: flex;
+    margin-top: 5px;
 }
 
 .header__logo-link {
@@ -529,8 +575,9 @@ p, .new {
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
-    line-height: 60px;
-    margin-top: 12px;
+    line-height: 100%;
+    margin-top: 13px;
+    margin-bottom: -5px;
 }
 
 .header-content__title {
@@ -566,7 +613,7 @@ p, .new {
 .network-r-icon__title {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 21px;
     text-align: right;
@@ -588,12 +635,14 @@ p, .new {
 }
 
 .header-contacts__network {
+    margin-top: 5px;
+    margin-right: 3px;
 }
 
 .header-contacts__email {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 21px;
     text-align: right;
@@ -603,11 +652,12 @@ p, .new {
 .header-contacts__address {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 21px;
     text-align: right;
     color: #FFFFFF;
+    margin-top: -8px;
 }
 
 .header-contacts__tel-wrapper {
@@ -673,7 +723,7 @@ p, .new {
 .hero-slide-item-content {
     z-index: 2;
     padding: 43px 0 0;
-    max-width: 968px;
+    max-width: 954px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -694,8 +744,8 @@ p, .new {
 .hero__description {
     font-family: 'Calibri', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 20px;
     line-height: 21px;
     color: #000000;
     max-width: 380px;
@@ -723,6 +773,7 @@ p, .new {
 .about-items__card {
     width: 100%;
     flex: 0 1 auto;
+    padding: 0 7px;
 }
 
 .about-items__card-title {
@@ -763,21 +814,22 @@ p, .new {
     display: block;
     width: 3px;
     background: #0095DA;
-    margin: 0 30px;
+    margin: 0 20px;
     height: 205px;
 }
 /* about end */
 
 /* courses start */
 .courses-section-title {
-    padding-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .course-card {
     padding-top: 40px;
     display: grid;
     grid-template-columns: 685px 1fr;
-    gap: 70px;
+    gap: 95px;
 }
 
 .not-available {
@@ -794,7 +846,7 @@ p, .new {
 
 .course-card__title {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 32px;
     line-height: 116%;
     color: #000000;
@@ -814,7 +866,7 @@ p, .new {
     display: flex;
     align-items: center;
     min-width: 280px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
 .course-card__features-text {
@@ -999,6 +1051,7 @@ p, .new {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 105px;
 }
 
 .contacts-section__title {
@@ -1013,7 +1066,7 @@ p, .new {
 .contacts__item {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 .contacts__item-img {
     margin-right: 10px;
@@ -1042,11 +1095,11 @@ p, .new {
     text-align: center;
 }
 .contacts__content {
-    margin-left: 100px;
+    margin-left: 105px;
 }
 
 .contacts {
-    max-width: 1200px;
+    max-width: calc(1200px - 40px);
     margin: 0 auto;
     width: 100%;
     padding-bottom: 30px;
@@ -1061,7 +1114,8 @@ p, .new {
 /* footer start */
 .footer {
     background: #000;
-    padding: 30px 0;
+    padding: 30px 0 10px;
+
 }
 
 .footer-courses__link {
@@ -1120,11 +1174,11 @@ p, .new {
 }
 
 .footer .contacts__content  {
-    margin-left: 0;
+    margin-left: -50px;
 }
 
 .footer-courses {
-    max-width: 573px;
+    max-width: 483px;
     width: 100%;
 }
 /* footer end */
@@ -1186,9 +1240,6 @@ p, .new {
         padding-top: 0;
     }
     .contact-form {
-        min-width: 100%;
-        max-width: 100%;
-        width: 100%;
         height: auto;
     }
     .course-card__features-icon {
@@ -1223,6 +1274,7 @@ p, .new {
     }
     .documents-content__right {
         margin-top: 20px;
+        text-align: center;
     }
     .documents-content__img {
         max-width: 530px;
@@ -1354,6 +1406,8 @@ p, .new {
     }
     .documents-content__title {
         font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
     }
     .course-card__title {
         font-size: 24px;
@@ -1367,10 +1421,30 @@ p, .new {
         white-space: normal;
         line-height: 120%;
     }
+    .contacts-inner {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 480px) {
     .teachers-list {
         grid-template-columns: 1fr;
+    }
+    .contact-form {
+        width: 290px;
+        min-width: 300px;
+    }
+
+    .footer a {
+        font-size: 18px;
+    }
+
+    footer .contacts__item-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer .contacts__content {
+        margin: 20px auto 0;
     }
 }
