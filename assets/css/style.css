@@ -1286,7 +1286,7 @@ p, .new {
 
 .course-target-features {
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -1297,8 +1297,9 @@ p, .new {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 120px;
+    /*margin-right: 130px;*/
 }
+
 
 .course-target-features__item:last-child {
     margin-right: 0;
@@ -1517,12 +1518,23 @@ p, .new {
     .course-card__features-text {
         font-size: 18px;
     }
-}
-
-@media (max-width: 1010px) {
     .container {
         padding: 0 20px;
     }
+}
+
+@media (max-width: 1100px) {
+    .course-target-features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .course-target-features__item {
+        margin-right: 0!important;
+    }
+}
+
+@media (max-width: 1010px) {
     .hero-slide-item-content {
         flex-direction: column;
         align-items: center;
@@ -1601,6 +1613,18 @@ p, .new {
         font-size: 30px;
         line-height: 100%;
         font-weight: 500;
+    }
+
+    .program__title {
+        padding-left: 0;
+    }
+
+    .program__description {
+        padding-left: 0;
+    }
+
+    .course-knowledge__table {
+        grid-template-columns: 1fr;
     }
 
     .about-items {
@@ -1695,6 +1719,45 @@ p, .new {
     }
     .contacts-inner {
         margin-left: 0;
+    }
+
+    .course-target-features__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-title {
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .course-target__description {
+        font-size: 20px;
+    }
+
+    .course-target__title {
+        font-size: 24px;
+    }
+
+    .course-target-features__title {
+        font-size: 24px;
+    }
+
+    .course-knowledge__item-title {
+        font-size: 24px;
+    }
+
+    .course-knowledge__list-item {
+        font-size: 20px;
+    }
+
+    .program__title {
+        font-size: 24px;
+    }
+
+    .documents-content__title {
+        line-height: 110%;
+        margin-bottom: 20px;
     }
 }
 

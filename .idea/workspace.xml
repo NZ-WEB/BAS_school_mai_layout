@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="refactor: change styles">
-      <change afterPath="$PROJECT_DIR$/course.html" afterDir="false" />
+    <list default="true" id="7ead2fc1-116d-4494-bc80-f6e0e256565e" name="Changes" comment="feat: add course page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/course.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <workItem from="1676972528366" duration="9896000" />
       <workItem from="1677142862249" duration="6893000" />
       <workItem from="1677485445211" duration="691000" />
-      <workItem from="1677564940380" duration="8652000" />
+      <workItem from="1677564940380" duration="9396000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add hero">
       <created>1676556762747</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677149281355</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: add course page">
+      <created>1677574107270</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677574107270</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +242,7 @@
     <MESSAGE value="fix: change layout" />
     <MESSAGE value="fix: change response" />
     <MESSAGE value="refactor: change styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: change styles" />
+    <MESSAGE value="feat: add course page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add course page" />
   </component>
 </project>
