@@ -1434,6 +1434,7 @@ p, .new {
 .goto__section-title {
     padding-top: 90px;
     padding-bottom: 50px;
+    text-align: center!important;
 }
 
 .goto-content {
