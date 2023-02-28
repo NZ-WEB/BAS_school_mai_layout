@@ -39,6 +39,18 @@ a {
     margin: 0 auto;
 }
 
+p, h3, h4, h5, h6 {
+    /*font-weight: 400!important;*/
+}
+
+.page-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+}
+
 /* custom tel with flags start */
 
 .iti__flag {background-image: url("../img/flags.png");}
@@ -164,8 +176,8 @@ p, .new {
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0);
     display: inline-block;
-    box-shadow: 0px 5px 10px rgba(15, 69, 100, 0.5);
-
+    box-shadow: 0 5px 10px rgba(15, 69, 100, 0.5);
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -175,6 +187,55 @@ p, .new {
     color: #0095DA;
 }
 /* blue-filled-btn end */
+
+
+/* breadcrumbs start */
+.breadcrumbs, .breadcrumbs a {
+    font-family: 'Calibri', sans-serif;
+    padding: 70px 0 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.breadcrumbs__icon {
+    width: 14px;
+    height: 10px;
+    margin: 0 5px;
+}
+
+.breadcrumbs-hero__content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    height: 220px;
+    margin-top: -20px;
+}
+
+.breadcrumbs-hero__action-btn {
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.breadcrumbs-hero__img {
+    max-width: 467px;
+    width: 100%;
+}
+
+.breadcrumbs-hero__img {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+}
+/* breadcrumbs end */
 
 /* contact-form start */
 .contact-form {
@@ -189,6 +250,11 @@ p, .new {
     top: 42px;
     box-sizing: border-box;
     background: #0095DA;
+}
+
+.contact-form__textarea {
+    min-height: 100px;
+    resize: none;
 }
 
 .contact-form__title {
@@ -1185,6 +1251,212 @@ p, .new {
 
 /* documents end */
 
+/* course-about-section start */
+.course-about-section-title {
+    text-align: left!important;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.course-target {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.course-target__title {
+    font-style: normal;
+    font-weight: 300!important;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #0095DA;
+    margin-bottom: 25px;
+}
+
+.course-target__description {
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+}
+
+.course-target-features {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.course-target-features__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.course-target-features__item:last-child {
+    margin-right: 0;
+}
+
+.course-target-features__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 38px;
+    max-width: 270px;
+}
+
+.course-knowledge__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.course-knowledge__table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.course-knowledge__item-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.course-knowledge__list {
+    display: grid;
+    gap: 20px;
+    max-width: 550px;
+}
+
+.course-knowledge__list-item {
+    font-family: 'Calibri', sans-serif;
+    position: relative;
+    padding-left: 60px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 21px;
+    color: #000000;
+    min-height: 63px;
+    display: flex;
+    align-items: center;
+}
+
+.course-knowledge__list-item:before {
+    content: '';
+    position: absolute;
+    background: url("../img/course/knowledge/list-icon.svg");
+    left: 0;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* course-about-section end */
+
+/* program start */
+.program__page-title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: left!important;
+}
+
+
+
+.program__title {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    padding-left: 22px;
+    max-width: 880px;
+}
+
+.program__list-item {
+    padding: 30px 0;
+    border-bottom: 1px solid #0095DA;
+}
+
+.program__list-item:last-child {
+    border: none;
+}
+
+.program__features {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    list-style: inside;
+
+    margin-bottom: 22px;
+}
+
+.program__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 22px;
+}
+/* program end */
+
+/* goto start */
+.goto {
+    padding-bottom: 90px;
+}
+
+.goto__section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.goto-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goto-content__form {
+    max-width: 660px;
+    width: 100%;
+    padding: 30px;
+    height: 100%;
+}
+
+.goto-content__form input {
+    padding: 20px;
+}
+
+.goto-content__form-btn {
+    margin-top: 5px;
+}
+/* goto end */
+
 /* adaptive start */
 @media (max-width: 1920px) {
     .header-content__title {
@@ -1208,9 +1480,6 @@ p, .new {
 }
 
 @media (max-width: 1280px) {
-    .container {
-        padding: 0 20px;
-    }
     .teachers-list {
         grid-template-columns: 1fr;
     }
@@ -1251,6 +1520,9 @@ p, .new {
 }
 
 @media (max-width: 1010px) {
+    .container {
+        padding: 0 20px;
+    }
     .hero-slide-item-content {
         flex-direction: column;
         align-items: center;
